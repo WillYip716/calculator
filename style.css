@@ -1,0 +1,28 @@
+.numbers{
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(3,1fr);
+    width: 170px;
+    gap: 10px;
+}
+
+.operators{
+    display: grid;
+    float: right;
+    grid-template-columns: repeat(2,50px);
+    gap: 10px;
+}
+
+.holders{
+    width:350px
+}
+
+#viewPort{
+    border: 5px solid black;
+    width: 350px;
+    height:35px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    text-align: right;
+
+}
