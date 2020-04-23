@@ -24,5 +24,17 @@
     margin-bottom: 50px;
     font-size: 30px;
     text-align: right;
-
 }
+
+
+.selected {
+    background-color: yellow !important;
+}
+
+.op {
+    background-color: lightgreen;
+}
+
+
+
+

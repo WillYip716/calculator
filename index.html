@@ -20,12 +20,12 @@
                 <button onclick="num(0)">0</button>
             </div>
             <div class="operators">
-                <button onclick="op('+')">+</button>
-                <button onclick="op('-')">-</button>
-                <button onclick="op('*')">*</button>
-                <button onclick="op('/')">/</button>
-                <button onclick="op('clear')">C</button>
-                <button onclick="op('=')">=</button>
+                <button id="plus" class="op" onclick="op('+')">+</button>
+                <button id="minus" class="op" onclick="op('-')">-</button>
+                <button id="multiply" class="op" onclick="op('*')">*</button>
+                <button id="divide" class="op" onclick="op('/')">/</button>
+                <button onclick="reset()">C</button>
+                <button onclick="calc()">=</button>
                 <button onclick="op('back')"><-</button>
             </div>
         </div>
